@@ -11,7 +11,7 @@ Interface BaseQueryInterface {
 
     public function find(int $id);
 
-    public function where(array $where = [],$limit);
+    public function where(array $where = [], array $with, array $whereRelation = [],$limit);
 
     public function create(array $data);
 

@@ -41,17 +41,19 @@ class UserController extends Controller
         try {
             $validate = $request->only(['name', 'password']);
             $data = $this->user->create($validate);
+
             return response()->json([
                 'success' => true,
                 'message' => 'Akunmu sudah terbuat hehe',
                 'data' => $data,
-            ]);
+            ],202);
+
         } catch (\Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Hmmm Akunmu gagal terbuat',
-                'data' => $th,
-            ]);
+                'error' => $th->getMessage(),
+            ],505);
         }
     }
 
@@ -89,21 +91,15 @@ class UserController extends Controller
         $data = $this->user->where($request->all());
         if (!$data) {
             return response()->json([
-                'status' => 404,
                 'data' => [],
                 'message' => 'Data Not Found',
-            ]);
+            ],404);
         }
 
 
         return response()->json([
-            'status' => 200,
             'data' => $data,
-        ]);
+        ],200);
     }
 
-    public function auth(Request $request)
-    {
-        return $request->all();
-    }
 }

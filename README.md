@@ -27,15 +27,15 @@ Fitur yang dihadirkan oleh aplikasi web antara lain:
 
 ## Tahap pengerjaan
 Terdapat tahap waktu pengerjaan
-| No  | Tahapan Pengerjaan         | Estimasi Waktu  | Status  |
-|---- |----------------------------|----------------|---------|
-| 1   | Registrasi dan login          | 7 hari         | ⏳ Dalam Proses |
-| 2   | Tampilan UI chat       | 14 hari        | ⏳ Dalam Proses |
-| 3   | Integrasi API & Realtime       | 10 hari        | ❌ Belum Dimulai |
-| 4   | Penerapan fitur   | 7 hari         | ❌ Belum Dimulai |
-| 5   | Pengujian & Debugging      | 5 hari         | ❌ Belum Dimulai |
-| 6   | Deployment                 | 3 hari         | ❌ Belum Dimulai |
-| 7   | Dokumentasi & README       | 2 hari         | ❌ Belum Dimulai |
+| No  | Tahapan Pengerjaan         | Estimasi Waktu  | Status  | Keterangan |
+|---- |----------------------------|----------------|---------|-------------|
+| 1   | Registrasi dan login          | 7 hari         | ✅  Selesai | Belum ada loading|
+| 2   | Tampilan UI chat       | 14 hari        | ⏳ Dalam Proses | On progress UI 45% |
+| 3   | Integrasi API & Realtime       | 10 hari        | ❌ Belum Dimulai | Mulai tanggal 14 April|
+| 4   | Penerapan fitur   | 7 hari         | ❌ Belum Dimulai |  |
+| 5   | Pengujian & Debugging      | 5 hari         | ❌ Belum Dimulai |  |
+| 6   | Deployment                 | 3 hari         | ❌ Belum Dimulai |  |
+| 7   | Dokumentasi & README       | 2 hari         | ❌ Belum Dimulai |  |
 
 ## Teknologi 
 1. Framework Php (Laravel) -> Backend
